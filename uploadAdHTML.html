@@ -1,0 +1,60 @@
+	<!DOCTYPT html>
+<html>
+	<head>
+		<title>Image Upload</title>
+		<link rel="stylesheet" type="text/css" href="styleForForm.css">
+	</head>
+	<body>
+		<div id="content">
+			<form method="post" action="uploadForm.php" enctype="multipart/form-data">
+				<input type="hidden" name="size" value="1000000" />
+				<div>
+					 Title: <input type="text" name="title" placeholder="e.g. Harry Potter">
+				</div>
+				<hr>
+				<div>
+					 Author: <input type="text" name="author" placeholder="e.g. J.K.Rolling">
+				</div>
+				<hr>
+				<div>
+					 Condition: </br>
+						<input type="radio" name="howused" value="like_new" checked> Line new :) </br>
+					 	<input type="radio" name="howused" value="kinda_used"> Used but not so much :| </br>
+						<input type="radio" name="howused" value="very_used"> Its used :/ </br>
+				</div>
+				<hr>
+				<div>
+					 Price: <input type="number" name="price" min="1" step="0.01" placeholder="e.g. 15.50">
+				</div>
+				<hr>
+				<div>
+					 Description: <textarea name="description" cols="40" rows="4" placeholder="Say somethiing about the book..."></textarea>
+				</div>
+				<hr>
+				<div>
+					 Category: </br>
+						<select name="category">
+						  <option value="CS">Computer Science</option>
+						  <option value="PSY">Psychology</option>
+						  <option value="ENG">English studies</option>
+						  <option value="BS">Business studies</option>
+						</select>
+				</div>
+				<hr>
+				<div>
+					Your email: <input type="email required" name="email_ad" placeholder="e.g. yourname@yourprovider.com">
+				</div>
+				<hr>
+				</br>
+				<div>
+						<input type="file" name="image" />
+				</div>
+				</br>
+				<hr>
+				<div align="center">
+					<input type="submit" name="upload" value="Upload AD" >
+				</div>
+			</form>
+		</div>
+	</body>
+</html>

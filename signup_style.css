@@ -1,0 +1,47 @@
+#name, #mail, #pass {
+	padding: 12px; 
+	border: 1px solid #ccc; 
+	border-radius: 4px; 
+	box-sizing: border-box; 
+	margin-top: 6px; 
+	margin-bottom: 16px; 
+	margin-left: 42%;
+
+}
+
+#sub{
+    background-color: #F18047;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 42%;
+
+}
+
+#sub:hover, input[name=upload]:hover{
+    background-color: #db5411;
+}
+
+#tit, #auth, #pr, #desc, #em, #cat, #con, #ima {
+	padding: 12px; 
+	border: 1px solid #ccc; 
+	border-radius: 4px; 
+	box-sizing: border-box; 
+	margin-top: 6px; 
+	margin-bottom: 16px; 
+
+
+}
+
+input[name=upload] {
+    background-color: #F18047;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+
+}

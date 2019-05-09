@@ -1,0 +1,105 @@
+div.bar{
+	padding-left: 1cm;
+	padding-right: 1cm;
+	padding-top: 0.5cm;
+	border-radius: 0px 0px 0px 70px;
+	text-align:center;
+	margin:auto;
+	padding-bottom: 0.5cm;
+	background-color: #F18047;
+	position:fixed;
+	top: 0;
+	right: 0;
+	z-index:1000;
+	
+}
+
+div.logo{
+	 margin-left: 4cm;
+	 margin-top: 0.5cm;
+	 margin-bottom: 0.5cm;
+}
+
+
+#forgot{
+	color: #f2f2f2;
+	margin-left: 60px;
+}
+
+div.menubuttons{
+	padding: 1px;
+	background-color: #f2f2f2; 
+   	color: black; 
+}
+
+input[name=q]{
+    width: 150px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 70px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('icons8-Search-50.png');
+    background-size: 15%;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    
+}
+
+input[name=q]:focus {
+    width: 100%;
+}
+
+#filter select {
+
+   border-radius: 0px 0px 9px 9px;
+   color: black;
+   background: transparent;
+   font-size: 20px;
+   width: auto;
+   background: #f2f2f2;
+   -webkit-appearance: none;
+   background: #F18047 
+   cursor:pointer;
+}
+
+#filter {
+
+   text-align: center;
+   overflow:hidden;
+   width:auto;
+   -moz-border-radius: 9px 9px 9px 9px;
+   -webkit-border-radius: 9px 9px 9px 9px;
+   border-radius: 9px 9px 9px 9px;
+   box-shadow: 1px 1px 11px #330033;
+   background: #F18047 
+}
+
+#filtersubmit{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding:5px 150px; 
+	background:#f2f2f2; 
+	border:0 none;
+	cursor:pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; 
+
+}
+
+#filtersubmit:hover{
+	background:#ccc; 
+}
+
+div.footer{	
+	border-style: solid;
+	background-color: lightgrey;
+	border: lightgrey;
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+}
